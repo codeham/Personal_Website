@@ -1,20 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <title>Resume</title>
+  <title>.resume</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Bootstrap / JQuery -->
+  <!-- Bootstrap CSS-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!-- CSS Animate -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="resume_style.css">
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <!-- Javascript -->
-  <script src="js/resumeFunctions.js"></script>
+
   <style type="text/css">
     .container{
       font-family: 'Amaranth', sans-serif;
@@ -42,6 +41,9 @@
       margin-top: 0px;
       margin-bottom: 25px;
    }
+   #back-btn, #contact-btn{
+    margin-top: 10px;
+   }
   </style>
 </head>
 <body>
@@ -51,7 +53,7 @@
     <div id="animation-text">
       <h1 class="animated lightSpeedIn">Cristian Avina</h1>
       <h2 class="animated lightSpeedIn">cavinalopez@cpp.edu</h2>
-      <h3 class="animated lightSpeedIn">626-290-4152</h3>
+<!--       <h3 class="animated lightSpeedIn">626-290-4152</h3> -->
       <a href= "home.html"><button id="back-btn" type="button" class="btn btn-primary btn-sm">Back</button></a>
       <a href="mailto:cavinalopez@cpp.edu"><button id="contact-btn" type="button" class="btn btn-primary btn-sm">Contact Me</button></a>
     </div>
@@ -102,5 +104,11 @@
     </div>
   </div>
 </div>
+<!--Bootstrap / JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Javascript -->
+<script src="js/resumeFunctions.js"></script>
+
 </body>
 </html>

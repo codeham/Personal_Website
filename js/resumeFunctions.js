@@ -9,15 +9,14 @@ $(document).ready(function(){
         $("#animation-text").removeClass("animated lightSpeedIn");
         $("#animation-text").addClass("animated fadeOutLeft");
         animationFinished = true;
-
-
+        
         if (animationFinished){
         	setTimeout(loadPage, 450);
         	function loadPage(){
         		window.location.href = "home.html";
         	}
         }
-        
+
         });
     });
 

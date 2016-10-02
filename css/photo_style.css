@@ -1,0 +1,32 @@
+    body{
+      font-family: 'Work Sans', sans-serif;
+    }
+  	.glyphicon-menu-left{
+  		color: black;
+  		font-size: 25px;
+      float: left;
+      margin-left: 25px;
+      margin-top: 10px;
+  	}
+    .text-wrap{
+      font-size: 25px;
+      text-align: left;
+      margin-top: 10px;
+      margin-left: 200px; 
+    }
+    #description{
+      font-size: 15px;
+    }
+    .pictures{
+      float: right;
+      margin-top: 15px;
+      position: relative;
+      bottom: 20px;
+    }
+    .pictures img{
+      /**
+      spacing btwn. images
+      **/
+      margin-bottom: 2px;
+    }
+

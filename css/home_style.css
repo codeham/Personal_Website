@@ -1,0 +1,33 @@
+ <style>
+    body{
+    }
+    .square{
+      float: left;
+      position: relative;
+      width: 30%;
+      padding-bottom: 30%;
+      margin: 1.66%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      /**Fall back color**/
+      background: #955251;
+    }
+    .content a:hover{
+      transition: font-size 0.4s ease;
+      font-size: 4.0vw;
+      text-overflow: ellipsis;
+    }
+    .content a{
+      color: inherit;
+      text-decoration: none;
+      font-family: 'Baloo Bhaina', sans-serif;
+      font-size: 27px;
+      font-size: 3.5vw;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      margin-top: 50%;
+      text-overflow: ellipsis;
+    }
+  </style>
