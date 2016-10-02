@@ -1,0 +1,14 @@
+.contact-container{
+	text-align: center;
+}
+.contact-container h1{
+	margin-bottom: -10px;
+	margin-top: 10px;
+
+}
+.contact-container p{
+	line-height: 0.4;
+}
+header{
+	text-decoration: underline;
+}

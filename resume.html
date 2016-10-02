@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Resume</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap / JQuery -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- CSS Animate -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Javascript -->
+  <script src="js/resumeFunctions.js"></script>
+  <style type="text/css">
+    .container{
+      font-family: 'Amaranth', sans-serif;
+    }
+    .text-center{
+      font-family: 'Open Sans', sans-serif;
+    }
+    .col-sm-4 p{
+      font-family: 'Open Sans', sans-serif;
+    }
+    header{ 
+      margin-bottom: -15px; 
+    }
+   .jumbotron{
+      /*background-image: url('mountain_banner.jpeg');*/
+      background-image: url(sunrise.jpg);
+      background-color: #1b3570; /*top colour*/
+      background-image: -webkit-linear-gradient(top, #1b3570, #fccaa8);
+      background-image: -moz-linear-gradient(top, #1b3570, #fccaa8);
+      background-image: -o-linear-gradient(top, #1b3570, #fccaa8);
+      background-image: linear-gradient(to bottom, #1b3570, #fccaa8);
+      color: white;
+      background-attachment: fixed;
+      min-height: 250px;
+      margin-top: 0px;
+      margin-bottom: 25px;
+   }
+  </style>
+</head>
+<body>
+<div class="container">
+<div class="col-md-12 jumbotron">
+  <div class="text-center">
+    <div id="animation-text">
+      <h1 class="animated lightSpeedIn">Cristian Avina</h1>
+      <h2 class="animated lightSpeedIn">cavinalopez@cpp.edu</h2>
+      <h3 class="animated lightSpeedIn">626-290-4152</h3>
+      <a href= "home.html"><button id="back-btn" type="button" class="btn btn-primary btn-sm">Back</button></a>
+      <a href="mailto:cavinalopez@cpp.edu"><button id="contact-btn" type="button" class="btn btn-primary btn-sm">Contact Me</button></a>
+    </div>
+  </div>
+</div>
+<header class="text-left"><h2><strong>Professional Experience</strong></h2></header>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3><strong>Teens Exploring Technology</strong></h3>
+      <p>University of Southern California - Los Angeles, CA</p>
+      <p>Volunteer / Mentor / Entry Level Developer</p>
+      <p>10 week non-profit Summer leadership program teaching inner city youth from the South Central Los Angeles area entreuprenuirship skills, web development skills and fundamentals on building up start ups.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3><strong>Northrup Grumman Campus Research</strong></h3>
+      <p>California Polytechnic Pomona - Pomona, CA</p>
+      <p>Group Research</p>
+      <p>On campus research involving unmanned aerial vehicles. Worked extensively with simulation software and algorithm planning for aerial hardware.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3><strong>Mayland Cabinets</strong></h3>
+      <p>Chino, CA</p>
+      <p>Webmaster / IT Repair</p>
+      <p>Website creation and deployment of buycabinetdirect.com utilizing Magento E-Commerce CMS platform. Website administrator, maintenance and development, as well as any IT related tasks</p>
+    </div>
+  </div>
+  <header class="text-left"><h2><strong>Technical Skills</strong></h2></header>
+  <div class="row">
+      <div class="col-sm-4">
+        <h3><strong>Web Development</strong></h3>
+        <p>HTML, XML, Vanilla CSS, Boostrap CSS, Javascript, JQuery, JSON</p>
+      </div>
+      <div class="col-sm-4">
+        <h3><strong>Programming Languages</strong></h3>
+        <p>Java, C++, Mips Assembly</p>
+      </div>
+      <div class="col-sm-4">
+        <h3><strong>Development Tools</strong></h3>
+        <p>Git, Github, Magento CMS, Google SEO tools & analytics</p>
+      </div>
+  </div>
+  <header class="text-left"><h2><strong>Education</strong></h2></header>
+  <div class="row">
+    <div class="col-sm-4">
+     <h3><strong>California Polytechnic Pomona</strong></h3>
+      <p>Pomona, CA</p>
+      <p>Bachelors of Science in Computer Science 2012-2017</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
